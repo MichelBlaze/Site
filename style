@@ -1,7 +1,95 @@
-fond {
-underground="#EBFD3F";
+.fond{background-color: #999999;}
+.titre {
+	z-index:0;
+	color:#251CC2;
+	
 }
-titre{
-colors="#251CC2";
+.connexion {
+	position:fixed;
+	right:0;
+	top:-15;
+}
+.inscrip{
+	position:relative;
+	top:180;
+	color:#1f1f1f;
+}
+.inscrip-c{
+	font-family:Arial;
+	color:#8f8f8f;
+	background-color:#333333;
+	border-width:2;
+	border-style:solid;
+	border-color:#9B1C26;
+	border-radius: 5px;
+ 
+}
+.ecrie {
+	z-index:1;
+	position:relative;
+	top:40;
+}
+#menu {
+	z-index:20;
+	position:absolute;
+	left:-40;
+	top:-15;
+}
+#menu ul{
+	z-index:20;
+	list-style-type:none;
+}
+#menu li{
+	z-index:20;
+	display:inline-block;
+}
+#menu li a{
+	z-index:20;
+	text-decoration:none;
+	position:relative;
+	font-family:Arial;
+	font-size: 30px;
+	text-decoration: none;
+	float:left;
+	background-color: #333333;
+	color:#ffffff;
+	border-bottom:1px;
+	border-bottom-color:#000000;
+	border-bottom-style:solid;
+	padding: 10px 20px;
+}
+#menu p {
+	z-index:20;
+	position:relative;
+	top:39;
+}
+#menu li a:hover{
+	z-index:20;
+background-color:#9B1C26;
+padding-bottom:9px;
+border-bottom:2px;
+border-bottom-color:#000000;
+border-bottom-style:solid;
+}
+#menu li a.active{
+	z-index:20;
+}
+
+#menu .dropdown-content {
+	z-index:20;
+display:none;
+position:absolute;
+margin-top:10 px;
+} 
+
+#menu .dropdown-content a{
+	z-index:20;
+	padding:12 px,16px;
+	display:block;
+}
+
+#menu .dropdown:hover .dropdown-content {
+	z-index:20;
+	display:block;
 }
 
